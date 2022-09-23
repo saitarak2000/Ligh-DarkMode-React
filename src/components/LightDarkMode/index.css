@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.actualcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+.blackcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 15px;
+  border-radius: 5px;
+  height: 20vh;
+}
+
+.whitecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  height: 20vh;
+  border: 1px black solid;
+}
+
+h1 {
+  color: white;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.heading {
+  color: black;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
